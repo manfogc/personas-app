@@ -12,7 +12,26 @@
   </head>
   <body>
     <h1>Listado de comunas</h1>
-
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Code</th>
+      <th scope="col">Comuna</th>
+      <th scope="col">Municipalidad</th>
+      <th scope="col">Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach ($Comunas as $comuna)
+    <tr>
+      <th scope="row"{{$comuna->comu_codi}}>1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    @foreach
+    </tbody>
+</table>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
