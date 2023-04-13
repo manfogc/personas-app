@@ -22,14 +22,15 @@
     </tr>
   </thead>
   <tbody>
-    @foreach ($Comunas as $comuna)
+    @foreach ($comunas as $comuna)
+        
     <tr>
       <th scope="row"{{$comuna->comu_codi}}>1</th>
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
     </tr>
-    @foreach
+    @endforeach
     </tbody>
 </table>
     <!-- Optional JavaScript; choose one of the two! -->
